@@ -1,0 +1,41 @@
+{
+  "Name": "livro",
+  "CreationDate": "2025-5-21",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://e-reader.arvore.com.br/?slug=william-kamkwamba-bryan-mealer-eliana-rocha-anna-hymas-o-menino-que-descobriu-o-vento",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "label",
+      "Target": "start",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"root\"]/main/div[2]/div[3]/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"root\"]/main/div[2]/div[3]/button",
+        "xpath=//div[2]/div[3]/button",
+        "css=#root > main > div.sc-gTRrQi.cFSQkY > div:nth-child(3) > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "120000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "gotoLabel",
+      "Target": "start",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
